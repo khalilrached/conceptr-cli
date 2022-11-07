@@ -1,0 +1,25 @@
+{
+  "name": "conceptr",
+  "version": "1.0.0",
+  "description": "BeFAST cli to generate files from UML ",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khailrached/conceptr-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "UML",
+    "node.js",
+    "MVC"
+  ],
+  "author": "@khalilrached",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khailrached/conceptr-cli/issues"
+  },
+  "homepage": "https://github.com/khailrached/conceptr-cli#readme"
+}
