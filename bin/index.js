@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const yargs = require('yargs/yargs');
 const {hideBin} = require('yargs/helpers');
+const fs = require('fs');
 
 yargs(hideBin(process.argv))
   .command('serve [port]', 'start the server', (yargs) => {
