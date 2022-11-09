@@ -2,12 +2,12 @@
   "name": "conceptr",
   "version": "1.0.0",
   "description": "BeFAST cli to generate files from UML ",
-  "main": "/bin/index.js",
+  "main": "/bin/conceptr",
   "bin": {
-    "conceptr": "./bin/index.js"
+    "conceptr": "./bin/conceptr"
   },
   "scripts": {
-    "start": "node ./bin/index.js",
+    "start": "node ./bin/conceptr",
     "test": "node ./test/generate_sample_class.js"
   },
   "repository": {
