@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+const yargs = require('yargs/yargs');
+const {hideBin} = require('yargs/helpers');
+
+
+const argv = yargs(hideBin(process.argv))
+  .command(['get [options]'],'build the based on .conceptr.json file.',(yargs)=>{
+    return yargs.option('path')
+  })
+  .command(['generate [options]','g','gen'], 'genreate files from schema.', (yargs) => {
+    return yargs
+      .option('output', {
+        alias:'o',
+        describe: 'path of output folder.',
+        default: process.cwd()
+      })
+      .option('lang', {
+        alias:'l',
+        describe: 'select the language.',
+        choices:Object.keys(require('../lib/Language')),
+        default:'JAVA_SCRIPT'
+      })
+      .example('conceptr g ','generate files in the current directory.')
+      .example('conceptr g --o="/usr/home/Desktop" --lang="JAVA" ','generate files in /usr/home/Desktop .')
+  },argv=>{
+    
+  })
+  .option('verbose', {
+    alias: 'v',
+    type: 'boolean',
+    description: 'Run with verbose logging',
+    default:'info'
+  })
+  .help()
+  .strict()
+  .parse()
