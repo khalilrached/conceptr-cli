@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 const yargs = require('yargs/yargs');
 const {hideBin} = require('yargs/helpers');
+const { generate } = require('../lib');
+const logger = require('../lib/Logger');
 
 
 const argv = yargs(hideBin(process.argv))
@@ -22,8 +24,13 @@ const argv = yargs(hideBin(process.argv))
       })
       .example('conceptr g ','generate files in the current directory.')
       .example('conceptr g --o="/usr/home/Desktop" --lang="JAVA" ','generate files in /usr/home/Desktop .')
-  },argv=>{
-    
+  },(argv)=>{
+    try{
+      console.log(argv);
+      generate(argv);
+    }catch(e){
+      logger.error(e.message)
+    }
   })
   .option('verbose', {
     alias: 'v',
