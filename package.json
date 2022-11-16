@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "BeFAST cli to generate files from UML ",
   "main": "/bin/conceptr",
+  "types": "./lib/types",
   "bin": {
     "conceptr": "./bin/conceptr"
   },
@@ -29,6 +30,7 @@
   "dependencies": {
     "@types/node": "^18.11.9",
     "@types/yargs": "^17.0.13",
+    "chalk": "^5.1.2",
     "winston": "^3.8.2",
     "winston-daily-rotate-file": "^4.7.1",
     "yargs": "^17.6.2"

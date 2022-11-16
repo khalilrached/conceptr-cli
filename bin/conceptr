@@ -4,7 +4,6 @@ const {hideBin} = require('yargs/helpers');
 const { generate } = require('../lib');
 const logger = require('../lib/Logger');
 
-
 const argv = yargs(hideBin(process.argv))
   .command(['get [options]'],'build the based on .conceptr.json file.',(yargs)=>{
     return yargs.option('path')
@@ -26,7 +25,6 @@ const argv = yargs(hideBin(process.argv))
       .example('conceptr g --o="/usr/home/Desktop" --lang="JAVA" ','generate files in /usr/home/Desktop .')
   },(argv)=>{
     try{
-      console.log(argv);
       generate(argv);
     }catch(e){
       logger.error(e.message)
