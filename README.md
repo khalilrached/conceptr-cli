@@ -17,10 +17,11 @@ alpha version will be deployed soon
 <h3>With npm</h3>
 
 ```bash
-    npm install conceptr-cli 
+    npm install conceptr
 ```
 
-<div>
+---
+## Contribution
 
 <h3>With git</h3>
 
@@ -33,8 +34,6 @@ alpha version will be deployed soon
 
 <div>
 
----
-## Contribution
 contact-me <br>
 email: khalilrached058@gmail.com<br>
 github: khalilrached
