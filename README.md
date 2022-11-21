@@ -30,11 +30,9 @@ alpha version will be deployed soon
     conceptr help
 ```
 
-<h3>to install it globally</h3>
-
 <div>
 
 ## Contribution
-contact-me 
-email: khalilrached058@gmail.com
+contact-me <br>
+email: khalilrached058@gmail.com<br>
 github: khalilrached
