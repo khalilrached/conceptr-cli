@@ -1,7 +1,7 @@
 {
   "name": "conceptr",
-  "version": "1.0.0",
-  "description": "BeFAST cli to generate files from UML ",
+  "version": "0.1.0",
+  "description": "BeFAST cli to generate files from UML.",
   "main": "/bin/conceptr",
   "types": "./lib/types",
   "bin": {

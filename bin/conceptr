@@ -37,5 +37,7 @@ const argv = yargs(hideBin(process.argv))
     default:'info'
   })
   .help()
+  .demandCommand()
   .strict()
+  .wrap(yargs().terminalWidth()-20)
   .parse()
