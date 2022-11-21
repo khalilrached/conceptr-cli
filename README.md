@@ -23,8 +23,6 @@ alpha version will be deployed soon
 ---
 ## Contribution
 
-<h3>With git</h3>
-
 ```bash
     git clone https://github.com/khailrached/conceptr-cli.git 
     cd conceptr-cli-master
