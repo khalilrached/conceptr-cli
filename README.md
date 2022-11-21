@@ -8,7 +8,8 @@ Built with JavaScript with the help of yargs package.<br>
 ---
 
 ## Version
-this project still on developing phase
+## 0.1.0
+this project still on dev phase
 alpha version will be deployed soon 
 ## Download
 <div> 
@@ -32,6 +33,7 @@ alpha version will be deployed soon
 
 <div>
 
+---
 ## Contribution
 contact-me <br>
 email: khalilrached058@gmail.com<br>
