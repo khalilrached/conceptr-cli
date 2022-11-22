@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node ./bin/conceptr",
-    "test": "node ./test/generate_sample_class.js"
+    "test": "node ./bin/conceptr help"
   },
   "publishConfig": {
     "@khalilrached:registry": "https://npm.pkg.github.com"
