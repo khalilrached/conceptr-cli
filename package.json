@@ -1,5 +1,5 @@
 {
-  "name": "@khalilrached/conceptr-cli",
+  "name": "@ezzicoding/conceptr-cli",
   "version": "0.1.0",
   "description": "BeFAST cli to generate files from UML.",
   "main": "/bin/conceptr",
