@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khalilrached/conceptr-cli.git"
+    "url": "git+https://github.com/ezzicoding/conceptr-cli.git"
   },
   "keywords": [
     "cli",
@@ -27,9 +27,9 @@
   "author": "@khalilrached",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/khalilrached/conceptr-cli/issues"
+    "url": "https://github.com/ezzicoding/conceptr-cli/issues"
   },
-  "homepage": "https://github.com/khalilrached/conceptr-cli#readme",
+  "homepage": "https://github.com/ezzicoding/conceptr-cli#readme",
   "dependencies": {
     "@types/node": "^18.11.9",
     "@types/yargs": "^17.0.13",
