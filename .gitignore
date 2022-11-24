@@ -3,3 +3,4 @@ test/*
 models/*
 logger/*
 .conceptr.json
+.github/**/*
