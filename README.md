@@ -1,5 +1,5 @@
- # rebuild the project with typescript and will be merged with the main branch.
-
+# Note 
+this project will be coded with typescript and will be merged with the main branch.
 
 ## CONCEPTR-CLI
 <p>
